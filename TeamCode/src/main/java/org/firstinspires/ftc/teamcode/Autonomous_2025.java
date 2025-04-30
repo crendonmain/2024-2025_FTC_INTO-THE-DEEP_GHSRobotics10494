@@ -184,11 +184,11 @@ public class Autonomous_2025 extends LinearOpMode {
 
         /* Run until the driver presses stop */
         if (opModeIsActive()) {
-            //goForward(.5, 2000);
-            //goRight(.5, 700);
-            //goForward(.65, 2800);
-            //goLeft(.65, 300);
-            //goForward(.5, 250);
+            goForward(.5, 2000);
+            goRight(.5, 700);
+            goForward(.65, 2800);
+            goLeft(.65, 300);
+            goForward(.5, 250);
             armToBucket();
 
         }
