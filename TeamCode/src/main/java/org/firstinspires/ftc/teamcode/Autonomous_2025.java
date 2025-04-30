@@ -182,7 +182,7 @@ public class Autonomous_2025 extends LinearOpMode {
         /* Wait for the game driver to press play */
         waitForStart();
 
-        /* Run until the driver presses stop */
+        /* Run until all code is complete */
         if (opModeIsActive()) {
             goForward(.5, 1550);
             goRight(.5, 700);
