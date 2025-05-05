@@ -192,13 +192,13 @@ public class Autonomous_2025 extends LinearOpMode {
 
         /* Run until all code is complete */
         if (opModeIsActive()) {
-            /* goForward(.5, 1550);
+            goForward(.5, 1550);
             goRight(.5, 700);
             goForward(.65, 2500);
             goLeft(.65, 350);
             goForward(.5, 350);
             armToBucket();
-            wrist.setPosition(WRIST_FOLDED_IN); */
+            wrist.setPosition(WRIST_FOLDED_IN);
             sleep(1000);
             goRight(.3, 900);
             goBackward(.69, 2300);
